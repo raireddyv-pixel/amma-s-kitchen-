@@ -1,0 +1,17 @@
+<style>
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.item {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item img {
+  border-radius: 10px;
+}
+</style>
