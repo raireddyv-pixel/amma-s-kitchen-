@@ -1,183 +1,203 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Amma's Kitchen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amma's Kitchen</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#fff8f2;
+color:#333;
+}
+
+header{
+background:#b22222;
+color:white;
+text-align:center;
+padding:30px 20px;
+}
+
+header img{
+width:100px;
+height:100px;
+border-radius:50%;
+background:white;
+padding:8px;
+}
+
+header h1{
+margin-top:10px;
+font-size:34px;
+}
+
+header p{
+margin-top:8px;
+font-size:18px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:white;
+margin-bottom:20px;
+padding:20px;
+border-radius:15px;
+box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.card h2{
+color:#b22222;
+margin-bottom:10px;
+}
+
+ul{
+padding-left:20px;
+}
+
+li{
+padding:6px 0;
+font-size:18px;
+}
+
+.order{
+text-align:center;
+margin:40px 0;
+}
+
+.btn{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:15px 35px;
+border-radius:10px;
+text-decoration:none;
+font-size:20px;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#1fa851;
+}
+
+.qr{
+text-align:center;
+margin-top:25px;
+}
+
+.qr img{
+width:220px;
+max-width:90%;
+border-radius:10px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#b22222;
+color:white;
+margin-top:30px;
+}
+</style>
+
 </head>
 
-<body style="font-family:Arial; background:#fff7e6; text-align:center;">
-
-<h1 style="color:#d35400;">🍽️ Amma's Kitchen</h1>
-<p>Homemade Snacks & Sweets</p>
-
-<hr>
-
-<h2>🧂 Snacks</h2>
-
-<div style="max-width:350px;margin:auto;">
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Mixer</h3>
-    <a href="https://wa.me/918688012610?text=I%20want%20Mixer" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Murukulu</h3>
-    <a href="https://wa.me/918688012610?text=I%20want%20Murukulu" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Karapusa</h3>
-    <a href="https://wa.me/918688012610?text=I%20want%20Karapusa" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Bundi</h3>
-    <a href="https://wa.me/918688012610?text=I%20want%20Bundi" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Chekodi</h3>
-    <a href="https://wa.me/918688012610?text=I%20want%20Chekodi" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Garelu</h3>
-    <a href="https://wa.me/918688012610?text=I%20want%20Garelu" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Sakinalu</h3>
-    <a href="https://wa.me/918688012610?text=I%20want%20Sakinalu" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-</div>
-
-<hr>
-
-<h2>🍬 Sweets</h2>
-
-<div style="max-width:350px;margin:auto;">
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Palli Chikki</h3>
-    <a href="https://wa.me/918688012610?text=I%20want%20Palli%20Chikki" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Nuvvula Chikki</h3>
-    <a href="https://wa.me/918688012610?text=I%20want%20Nuvvula%20Chikki" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Gulab Jamun</h3>
-    <a href="https://wa.me/918688012610?text=I%20want%20Gulab%20Jamun" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Laddu</h3>
-    <a href="https://wa.me/918688012610?text=I%20want%20Laddu" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Dry Fruit Laddu</h3>
-    <a href="https://wa.me/918688012610?text=I%20want%20Dry%20Fruit%20Laddu" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Flaxseed Laddu</h3>
-    <a href="https://wa.me/918688012610?text=hi%20amma's%20kitchen%20I%20want%20Flaxseed%20Laddu" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-  <div style="background:white;margin:10px;padding:10px;border-radius:10px;">
-    <h3>Sweet Rose</h3>
-    <a href="https://wa.me/918688012610?text=hi%20amma's%20kitchen%20I%20want%20Sweet%20Rose" target="_blank">
-      <button style="background:green;color:white;padding:8px;border:none;border-radius:6px;">Order Now</button>
-    </a>
-  </div>
-
-</div>
-
-<hr>
-
-<h2>📲 Order All Items</h2>
-
-<a href="https://wa.me/918688012610?text=hii%20amma's%20kitchen%20I%20want%20to%20order%20food" target="_blank">
-  <button style="background:darkgreen;color:white;padding:15px 25px;border:none;border-radius:10px;font-size:18px;">
-    ORDER NOW
-  </button>
-</a>
-
-<hr>
-
-<h2>📌 QR CODE</h2>
-
-<img width="200"
-src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https:// https://raireddyv-pixel.github.io/amma-s-kitchen-/" />
-
-</body>
-</html>
-
-<a href="YOUR_SWIGGY_LINK" target="_blank">
-  <button>Order on Swiggy</button>
-</a>
-
-<a href="YOUR_ZOMATO_LINK" target="_blank">
-  <button>Order on Zomato</button>
-</a>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Amma's Kitchen</title>
-  <style>
-    .whatsapp-btn {
-      background-color: #25D366;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-    }
-  </style>
-</head>
 <body>
 
-  <h2>Amma's Kitchen 🍽️</h2>
+<header>
 
-  <!-- WhatsApp Button -->
-  <a class="whatsapp-btn"
-     href="https://wa.me/918688012610?text=Hi%20Amma's%20Kitchen%20💛%0AI%20want%20to%20order%20food.%0APlease%20share%20menu."
-     target="_blank">
-     Order on WhatsApp 💬
-  </a>
+<!-- Replace logo.png with your logo -->
+<img src="ammas-kitchen-logo.jpg" alt="Logo">
+
+<h1>Amma's Kitchen</h1>
+
+<p>Homemade Pickles • Podulu • Snacks • Sweets</p>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>🍗 Non-Veg Pickles</h2>
+<ul>
+<li>Chicken Pickle</li>
+<li>Mutton Pickle</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🥭 Veg Pickles</h2>
+<ul>
+<li>Tomato Pickle</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🌿 Podulu</h2>
+<ul>
+<li>Karivepaku Podi</li>
+<li>Flaxseed Podi</li>
+<li>Munagaaku Podi</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🍘 Snacks</h2>
+<ul>
+<li>Boondi</li>
+<li>Chegodi</li>
+<li>Murukulu</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🍬 Sweets</h2>
+<ul>
+<li>Gavvalu</li>
+<li>Ariselu</li>
+<li>Laddu</li>
+<li>Dry Fruits Laddu</li>
+<li>Palli Patti</li>
+<li>Nuvvula Patti</li>
+<li>Kajjikaya (Garijelu)</li>
+<li>Sweet Rose</li>
+</ul>
+</div>
+
+<div class="order">
+
+<a class="btn" href="https://wa.me/918688012610?text=Hi%20Amma%27s%20Kitchen%2C%20I%20want%20to%20place%20an%20order.">
+
+📲 Order on WhatsApp
+
+</a>
+
+<div class="qr">
+
+<h2>Scan to Order</h2>
+
+<img src="whatsapp-qr.png" alt="WhatsApp QR Code">
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Amma's Kitchen ❤️
+
+</footer>
 
 </body>
 </html>
