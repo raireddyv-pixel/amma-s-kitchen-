@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us | Amma's Kitchen</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo">🍲 Amma's Kitchen</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="shop.html">Shop</a>
+<a href="cart.html">Cart</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<section class="categories">
+
+<h2>About Amma's Kitchen</h2>
+
+<p style="font-size:18px;line-height:1.8;max-width:900px;margin:auto;text-align:center;">
+
+Welcome to <b>Amma's Kitchen</b>, where every recipe is prepared with love and authentic homemade flavors.
+
+We specialize in freshly made Pickles, Sweets, Snacks, and Podulu using premium ingredients without compromising on quality.
+
+Our mission is to bring the traditional taste of homemade food to every family across India.
+
+</p>
+
+<br><br>
+
+<h2>Why Choose Us?</h2>
+
+<div class="cards">
+
+<div class="card">
+🍲
+<h3>100% Homemade</h3>
+</div>
+
+<div class="card">
+🌿
+<h3>Fresh Ingredients</h3>
+</div>
+
+<div class="card">
+❤️
+<h3>Made with Love</h3>
+</div>
+
+<div class="card">
+🚚
+<h3>India Wide Delivery</h3>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Amma's Kitchen
+
+</footer>
+
+</body>
+</html>
