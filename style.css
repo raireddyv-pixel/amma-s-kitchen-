@@ -122,7 +122,31 @@ margin-top:60px;
 }
 
 @media(max-width:768px){
+.product{
+  background:#ffffff;
+  padding:20px;
+  margin:20px;
+  border-radius:12px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
 
+.product h3{
+  color:#333 !important;
+}
+
+.product p{
+  color:#333 !important;
+}
+
+.product a{
+  display:inline-block;
+  margin-top:10px;
+  background:#25D366;
+  color:#fff !important;
+  padding:10px 20px;
+  border-radius:6px;
+  text-decoration:none;
+}
 header{
 flex-direction:column;
 }
