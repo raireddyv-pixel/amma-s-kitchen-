@@ -88,7 +88,7 @@ message += "%0A👤 Name: " + name;
 message += "%0A📱 Phone: " + phone;
 
 window.open(
-"https://wa.me/91YOURNUMBER?text=" + message,
+"https://wa.me/918688012610?text=" + message,
 "_blank"
 );
 
