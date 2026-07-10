@@ -70,3 +70,26 @@ loadCart();
 }
 
 window.onload=loadCart;
+function sendWhatsAppOrder() {
+
+let name = document.querySelector('input[type="text"]').value;
+let phone = document.querySelector('input[type="tel"]').value;
+
+let message = "🍲 *Amma's Kitchen Order*%0A%0A";
+
+cart.forEach(item => {
+message += "• " + item.name + " (" + item.size + ") - ₹" + item.price + "%0A";
+});
+
+let total = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+
+message += "%0A💰 Total: ₹" + total;
+message += "%0A👤 Name: " + name;
+message += "%0A📱 Phone: " + phone;
+
+window.open(
+"https://wa.me/91YOURNUMBER?text=" + message,
+"_blank"
+);
+
+}
